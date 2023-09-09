@@ -1,15 +1,17 @@
 #include <stdio.h>
 #include <unistd.h>
+
 /**
- * main - the entry point of the program
+ * main - the entry point of thhe program
  *
- * Return: 1
+ * Return: 1 indicates successful program execution
  */
 
 int main(void)
 {
-	write (2,
-	"and that piece of art is useful,\" - Dora Korpar, 2015-10-19\n", 59);
+	fprintf(stderr, "and that piece of art is useful\"");
+	fprintf(stderr, " - Dora Korpar, 2015-10-19\n");
 	return (1);
 }
+
 
