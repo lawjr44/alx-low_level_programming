@@ -18,7 +18,7 @@ int main(void)
 		a = b - a;
 		++i;
 	}
-	printf("%ld", sum);
+	printf("%ld\n", sum);
 	return (0);
 }
 
