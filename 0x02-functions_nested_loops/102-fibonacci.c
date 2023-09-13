@@ -1,29 +1,31 @@
 #include <stdio.h>
 
 /**
- * main - this is the first step of the program
+ * main - this is the entry of the program
  * Return: 0
  */
 
 int main(void)
 {
-	unsigned long int term1 = 1;
-	unsigned long int term2 = 2;
-	unsigned long int next;
-	int i;
+	int i = 0;
+	long j = 1, k = 2;
 
-	printf("%lu", term1);
-	for (i = l; i < 50; i++)
+
+	while (i < 50)
 	{
-		printf("%lu", term2;
-		next = term1 +term2;
-		term1 = term2;
-		term2 = next;
-		if (i != 49)
-		printf(", ");
-		}
-		printf("\n");
-		return (0);
-		}
-
+	if (i == 0)
+	printf("%ld", j);
+	else if (i == 1)
+	printf(", %ld", k);
+	else
+	{
+	k += j;
+	j = k - j;
+	printf(", %ld", k);
+	}
+	++i;
+	}
+	printf("\n");
+	return (0);
+}
 
