@@ -14,7 +14,7 @@ int main(void)
 	{
 		b += a;
 		if (b % 2 == 0)
-		sum + a = b;
+		sum += b;
 		a = b - a;
 		++i;
 	}
