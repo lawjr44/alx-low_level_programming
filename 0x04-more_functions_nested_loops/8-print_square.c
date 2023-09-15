@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_spuare - prints a square using the '#' character
- * @size: the number of '#' character to print
+ * print_square - this prints square using the '#' character
+ * @size: size of the square
  * Return: void
  */
 
