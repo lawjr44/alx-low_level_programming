@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
 {
 	int (*op_func)(int, int);
 	int num1, num2;
+
 	if (argc != 4)
 	{
 		_putchar('E');
@@ -36,5 +37,5 @@ int main(int argc, char *argv[])
 	}
 	_putnbr(op_func(num1, num2));
 	_putchar('\n');
-	return (0);
+	return (0);
 }
